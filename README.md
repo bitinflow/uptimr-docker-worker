@@ -2,4 +2,4 @@
 
 ## Run with docker compose
 
-Guide was moved to the Uptimr.io dashboard.
+Guide was moved to the https://uptimr.io/nodes dashboard.
