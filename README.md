@@ -1,5 +1,7 @@
 # Docker Uptimr Worker Node
 
+## Run with docker compose
+
 Contents of `docker-compose.yml`
 
 ```
@@ -14,10 +16,17 @@ services:
 
 Also create a new `config.json` with the content given from the dashboard.
 
-Finally start docker:
+Finally start the worker:
+
+```
+docker compose up
+```
+
+to run it in background please use:
+
 
 ```
 docker compose up -d
 ```
 
-You node should apear up in the dashboard.
+You node should appear up in the dashboard.
