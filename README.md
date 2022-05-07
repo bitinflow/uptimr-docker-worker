@@ -9,7 +9,6 @@ version: "3"
 services:
   uptimr:
     image: envoyr/uptimr-worker
-    tty: true
     volumes:
       - ./config.json:/var/lib/uptimr/config.json:ro
 ```
