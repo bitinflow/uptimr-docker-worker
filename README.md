@@ -11,7 +11,7 @@ services:
     image: envoyr/uptimr-worker
     tty: true
     volumes:
-      - /root/froxlor/config.json:/var/lib/uptimr/config.json:ro
+      - ./config.json:/var/lib/uptimr/config.json:ro
 ```
 
 Also create a new `config.json` with the content given from the dashboard.
