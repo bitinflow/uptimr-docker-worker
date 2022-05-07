@@ -1,4 +1,4 @@
-# Docker Uptimr Worker Node
+# Uptimr Worker Node for Docker
 
 ## Run with docker compose
 
