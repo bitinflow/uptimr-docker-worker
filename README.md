@@ -8,7 +8,7 @@ Contents of `docker-compose.yml`
 version: "3"
 services:
   uptimr:
-    image: envoyr/worker
+    image: envoyr/uptimr-worker
     tty: true
     volumes:
       - /root/froxlor/config.json:/var/lib/uptimr/config.json:ro
