@@ -19,14 +19,13 @@ Also create a new `config.json` with the content given from the dashboard.
 Finally start the worker:
 
 ```
-docker compose up
-```
-
-to run it in background please use:
-
-
-```
 docker compose up -d
+```
+
+to view the status run following command:
+
+```
+docker compose logs
 ```
 
 You node should appear up in the dashboard.
