@@ -11,7 +11,7 @@ RUN apt-get install -y \
 RUN add-apt-repository ppa:ondrej/php -y
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv 1A7CD6B10EBDBB79
-RUN add-apt-repository 'deb [arch=amd64] https://deb.uptimr.io/ubuntu focal main'
+RUN add-apt-repository 'deb [arch=arm64] https://deb.uptimr.io/ubuntu focal main'
 
 RUN apt-get install -y uptimr
 
