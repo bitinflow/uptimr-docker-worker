@@ -1,4 +1,4 @@
-ROM ubuntu:focal
+FROM ubuntu:focal
 
 # Set timezone
 ENV TZ=UTC
